@@ -13,14 +13,21 @@ iframe[type="site"]:hover {
     left: 0;
 }
 
-/* iframe[type="site"]:hover::after {
-    
-} */
+.sites {
+    height: 300px;
+    background-color: rgb(148, 60, 60);
+}
+
+.apps {
+    height: 300px;
+    background-color: rgb(160, 102, 79);
+}
 
 .nameportfolio {
     position: absolute;
-    top: 5%;
-    left: 45%;
+    top: -2%;
+    right: 5%;
+    
 
     text-align: center;
 
@@ -51,4 +58,10 @@ iframe[type="site"]:hover {
 .saits h1 {
     position: flex;
     
+}
+
+.saits h2 {
+    font-size: 50px;
+    font-family: monospace;
+    color: aliceblue;
 }

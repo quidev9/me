@@ -46,6 +46,7 @@
 
 /* CONTENT TITLE */
 .title_preview {
+    margin-left: -20px;
     text-align: center;
     font-family: monospace;
     color: white;
