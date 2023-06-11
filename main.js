@@ -1,13 +1,3 @@
-name_pages = document.getElementById('name_pages')
-
-name_pages.onmouseover = changeColor;
-
-function changeColor() {
-    name_pages.style.color = "cornflowerblue";
-}
-
-
-
 bg = document.getElementById('bg')
 
 bg.style.backgrounAttachment = "fixed";
