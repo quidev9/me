@@ -21,3 +21,13 @@ window.onscroll = function() {
     
 }
 
+
+//определить телефон
+let detect = new MobileDetect(window.navigator.userAgent)
+if(detect.mobile() != null || detect.tablet() || detect.phone()) {
+    console.log("this site only PC version");
+
+    document.body.innerHTML = "this site only PC version";
+}
+
+

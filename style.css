@@ -21,7 +21,7 @@ body {
 
     z-index: 3;
 
-    background-color: rgb(177, 176, 176);
+    background-color: rgb(70, 70, 70);
 
     animation: hide 3s ease;
     animation-fill-mode: forwards;
