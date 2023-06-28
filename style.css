@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to left, aliceblue, rgb(253, 253, 253));
+}
+
+
+
+
+#preview {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 120%;
+    height: 120%;
+
+    z-index: 3;
+
+    background-color: rgb(70, 70, 70);
+
+    animation: hide 3s ease;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes hide {
+    0% {
+        opacity: 100%;
+    }
+
+    80% {
+        opacity: 60%;
+    }
+
+    100% {
+        opacity: 0%;
+        visibility: hidden;
+    }
+}
