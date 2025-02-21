@@ -5,9 +5,9 @@ document.getElementById('portfolio').innerHTML += "<div id='apps' class='apps'><
 
 //sites
 document.getElementById('sites').innerHTML += "<h2>mysites</h2>"
-document.getElementById('sites').innerHTML += "<iframe type='site' frameborder='no' align='left' src='https://property091.github.io/zeros/'></iframe>"
-document.getElementById('sites').innerHTML += "<iframe type='site' frameborder='no' align='left' src='https://property091.github.io/numbers/'></iframe>"
-document.getElementById('sites').innerHTML += "<iframe type='site' frameborder='no' align='left' src='https://property091.github.io/table/'></iframe>"
+document.getElementById('sites').innerHTML += "<iframe type='site' frameborder='no' align='left' src='https://quidev9.github.io/zeros/'></iframe>"
+document.getElementById('sites').innerHTML += "<iframe type='site' frameborder='no' align='left' src='https://quidev9.github.io/numbers/'></iframe>"
+document.getElementById('sites').innerHTML += "<iframe type='site' frameborder='no' align='left' src='https://quidev9.github.io/table/'></iframe>"
 
 
 //apps
